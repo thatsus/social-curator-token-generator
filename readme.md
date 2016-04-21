@@ -14,12 +14,12 @@ The package can be installed via Composer by requiring the "lotvantage/social-cu
 ```json
 {
     "require": {
-        "lotvantage/social-curator-token-generator": "dev-master"
+        "lotvantage/social-curator-token-generator": "1.0.*"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url":  "Generate tokens for story generation calls to the Social Curator service."
+            "url":  "git@github.com:thatsus/social-curator-token-generator.git"
         }
     ]
 }
