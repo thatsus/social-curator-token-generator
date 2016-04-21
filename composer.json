@@ -1,0 +1,20 @@
+{
+    "name": "lotvantage/social-curator-token-generator",
+    "description": "Generate tokens for story generation calls to the Social Curator service.",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "laravel/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LotVantage\\StoryUseTokenBuilder\\": "src/LotVantage/StoryUseTokenBuilder"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}
