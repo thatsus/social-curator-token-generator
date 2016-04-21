@@ -18,11 +18,11 @@ class StoryUseTokenBuilder
     public function buildTokenPlain()
     {
         $token_pieces = array_values(array_merge(
-            $this->options['verticals'] ?: [],
-            $this->options['categories'] ?: [],
-            $this->options['content_providers'] ?: [],
-            $this->options['keywords'] ?: [],
-            $this->options['pool'] ? [$this->options['pool']] : []
+            isset($this->options['verticals']) ? $this->options['verticals'] : [],
+            isset($this->options['categories']) ? $this->options['categories'] : [],
+            isset($this->options['content_providers']) ? $this->options['content_providers'] : [],
+            isset($this->options['keywords']) ? $this->options['keywords'] : [],
+            isset($this->options['pool']) ? [$this->options['pool']] : []
         ));
 
         sort($token_pieces);

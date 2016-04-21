@@ -2,10 +2,9 @@
 
 namespace LotVantage\StoryUseTokenBuilder;
 
-use Tests\TestCase;
-use Mockery;
+use PHPUnit_Framework_TestCase;
 
-class StoryUseTokenBuilderTest extends TestCase
+class StoryUseTokenBuilderTest extends PHPUnit_Framework_TestCase
 {
 
     public function testCreate()
