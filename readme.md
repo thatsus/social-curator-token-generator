@@ -3,10 +3,6 @@ StoryUseTokenBuilder
 
 Generate tokens for story generation calls to the Social Curator service.
 
-## Requirement
-
-* Laravel or Lumen 5.1+
-
 ## Installation
 
 The package can be installed via Composer by requiring the "lotvantage/social-curator-token-generator" package in your project's composer.json.
