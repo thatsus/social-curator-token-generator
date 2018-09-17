@@ -1,6 +1,14 @@
 {
     "name": "lotvantage/social-curator-token-generator",
     "description": "Generate tokens for story generation calls to the Social Curator service.",
+    "authors": [
+        {
+            "name": "Dan Kuck-Alvarez",
+            "email": "dankuck@gmail.com",
+            "homepage": "http://dankuck.github.io/",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=5.5.9"
     },
